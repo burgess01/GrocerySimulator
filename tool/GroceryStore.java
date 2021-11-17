@@ -1,11 +1,13 @@
 // This is a Java program which inputs a file and outputs
 
+// create function for generating suggestions
 
 // input file
 
 // put file contents into a 2d list: outer = item, inner = item details
 
 // print out all item details
+// newline twice and then give suggestions using suggestions function
 
 // ask user how much money they brought to the store
 
