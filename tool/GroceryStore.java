@@ -1,6 +1,6 @@
 // This is a Java program which inputs a file and outputs
 
-// create function for generating suggestions
+// create function for generating suggestions, choose 2-4 suggestions?
 
 // input file
 
@@ -17,3 +17,4 @@
     // when user says they are done, break
 
 // when break, create file (output.txt) holding cart details and some computations
+// append to file, not override
