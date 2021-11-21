@@ -39,7 +39,7 @@ public class GroceryStore{
         // input input file
         BufferedReader br = new BufferedReader(new FileReader("itemlist.txt"));
         // put itemlist.txt contents into an array of objects
-        String line = br.readLine();
+        String line;
         String splitBy = ",";
         String[] boughtItems;
         int count = 0;
