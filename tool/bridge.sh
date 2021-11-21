@@ -1,4 +1,4 @@
 #!/bin/sh
-python datagen.py
+python filecreator.py
 javac GroceryStore.java
 java GroceryStore
