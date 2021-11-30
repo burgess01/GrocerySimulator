@@ -13,7 +13,7 @@ good_names = ['rice', 'cookies', 'milk', 'eggs', 'chips', 'meat', 'vegetables', 
 
 # write in a file named input.txt
 original_stdout = sys.stdout
-with open('itemlist.txt', 'w') as f:
+with open('../../data/itemlist.txt', 'w') as f:
     sys.stdout = f
     # each line for 10 lines:
     products = []
@@ -31,10 +31,10 @@ with open('itemlist.txt', 'w') as f:
     sys.stdout = original_stdout
     
 # if unable to find a file named'output.txt', create one
-file_exists = os.path.exists('purchasehistory.txt')
+file_exists = os.path.exists('../../data/purchasehistory.txt')
 if file_exists == False:
     original_stdout = sys.stdout
-    with open('purchasehistory.txt', 'w') as f:
+    with open('../../data/purchasehistory.txt', 'w') as f:
         sys.stdout = f
         # each line for 10 lines:
         price = 0

@@ -1,0 +1,10 @@
+100 , rice , 15 , 2
+101 , cookies , 0 , 1
+102 , milk , 21 , 1
+103 , eggs , 13 , 3
+104 , chips , 16 , 3
+105 , meat , 6 , 1
+106 , vegetables , 10 , 0
+107 , cheese , 17 , 3
+108 , bread , 15 , 2
+109 , fruit , 25 , 3
