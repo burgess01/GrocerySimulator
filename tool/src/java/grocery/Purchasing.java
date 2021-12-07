@@ -62,7 +62,7 @@ public class Purchasing{
                 // for amount of rows second val in grab
                 String[] b = line.split(splitBy);
                 // make sure that b[0], b[1] ....
-                System.out.println(b[0] + "\t" + b[1] + "\t" + b[2] + "\t" + b[3]);
+                //System.out.println(b[0] + "\t" + b[1] + "\t" + b[2] + "\t" + b[3]);
                 items[count] = new Product(Integer.parseInt(b[0].trim()),b[1].toString(),Double.parseDouble(b[2].trim()),Integer.parseInt(b[3].trim()));
                 count++;
             }
@@ -108,7 +108,7 @@ public class Purchasing{
             for(int i = 0; i < amtBought; i++){
                 // append a line containing Product: ID, name, price, rating
                 pw.write(boughtItems.get(i).getId() + "," + boughtItems.get(i).getName() + "," + boughtItems.get(i).getPrice() + "," + boughtItems.get(i).getRating() + "\n");
-                System.out.println(boughtItems.get(i).getId() + "," + boughtItems.get(i).getName() + "," + boughtItems.get(i).getPrice() + "," + boughtItems.get(i).getRating());
+                //System.out.println(boughtItems.get(i).getId() + "," + boughtItems.get(i).getName() + "," + boughtItems.get(i).getPrice() + "," + boughtItems.get(i).getRating());
             }
             pw.close();
             //System.out.println("Array size: " + boughtItems.size());
