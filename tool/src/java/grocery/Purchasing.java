@@ -94,6 +94,7 @@ public class Purchasing{
                 // when user says they are done, break
                 else { // prompt equals 0
                     System.out.println("Thank you for shopping with us!");
+                    System.out.println("After checking out, you had " + money + " remaining.");
                     break;
                 }
             }

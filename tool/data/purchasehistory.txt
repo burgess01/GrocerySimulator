@@ -1,3 +1,7 @@
-100 , rice , 11 , 1
-101 , cookies , 23 , 2
-102 , milk , 14 , 2
+100 , rice , 3 , 0
+101 , cookies , 17 , 1
+102 , milk , 15 , 2
+109, fruit ,3.0,1
+108, bread ,2.0,0
+101, cookies ,6.0,2
+102, milk ,3.0,3
